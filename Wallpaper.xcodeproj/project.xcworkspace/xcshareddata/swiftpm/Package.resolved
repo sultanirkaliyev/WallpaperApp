@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "urlimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sultanirkaliyev/URLImage",
+      "state" : {
+        "branch" : "master",
+        "revision" : "5c6946f0bba8310afe00c5c11b403133bb85a3ab"
+      }
+    }
+  ],
+  "version" : 2
+}

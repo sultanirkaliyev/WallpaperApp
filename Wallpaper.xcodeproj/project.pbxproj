@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FB4043E2C151B300091507F /* WallpaperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB4043D2C151B300091507F /* WallpaperApp.swift */; };
+		2FB404422C151B320091507F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB404412C151B320091507F /* Assets.xcassets */; };
+		2FB404452C151B320091507F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB404442C151B320091507F /* Preview Assets.xcassets */; };
+		2FB4044F2C151B320091507F /* WallpaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB4044E2C151B320091507F /* WallpaperTests.swift */; };
+		2FB404592C151B320091507F /* WallpaperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB404582C151B320091507F /* WallpaperUITests.swift */; };
+		2FB4045B2C151B320091507F /* WallpaperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB4045A2C151B320091507F /* WallpaperUITestsLaunchTests.swift */; };
+		2FB4046C2C151BA60091507F /* CoreTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB4046B2C151BA60091507F /* CoreTabBar.swift */; };
+		2FB404702C151C4E0091507F /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB4046F2C151C4E0091507F /* MainPageView.swift */; };
+		2FB404752C151F260091507F /* Color+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB404742C151F260091507F /* Color+Additions.swift */; };
+		2FB404772C151F800091507F /* AnimalsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB404762C151F800091507F /* AnimalsPage.swift */; };
+		2FB4047F2C15204E0091507F /* MockImageUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB4047E2C15204E0091507F /* MockImageUrls.swift */; };
+		2FB404832C15BDD90091507F /* CitiesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB404822C15BDD90091507F /* CitiesPage.swift */; };
+		2FB404BC2C1734720091507F /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2FB404BB2C1734720091507F /* URLImage */; };
+		2FB404BE2C18BE840091507F /* CarsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB404BD2C18BE840091507F /* CarsPage.swift */; };
+		2FB404C02C18C5FD0091507F /* NaturePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB404BF2C18C5FD0091507F /* NaturePage.swift */; };
+		2FB404C22C18C72C0091507F /* SpacePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB404C12C18C72C0091507F /* SpacePage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FB4044B2C151B320091507F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FB404322C151B300091507F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FB404392C151B300091507F;
+			remoteInfo = Wallpaper;
+		};
+		2FB404552C151B320091507F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FB404322C151B300091507F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FB404392C151B300091507F;
+			remoteInfo = Wallpaper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FB4043A2C151B300091507F /* Wallpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallpaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB4043D2C151B300091507F /* WallpaperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperApp.swift; sourceTree = "<group>"; };
+		2FB404412C151B320091507F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FB404442C151B320091507F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FB4044A2C151B320091507F /* WallpaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallpaperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB4044E2C151B320091507F /* WallpaperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperTests.swift; sourceTree = "<group>"; };
+		2FB404542C151B320091507F /* WallpaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallpaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB404582C151B320091507F /* WallpaperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperUITests.swift; sourceTree = "<group>"; };
+		2FB4045A2C151B320091507F /* WallpaperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2FB4046B2C151BA60091507F /* CoreTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTabBar.swift; sourceTree = "<group>"; };
+		2FB4046F2C151C4E0091507F /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
+		2FB404742C151F260091507F /* Color+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Additions.swift"; sourceTree = "<group>"; };
+		2FB404762C151F800091507F /* AnimalsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsPage.swift; sourceTree = "<group>"; };
+		2FB4047E2C15204E0091507F /* MockImageUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockImageUrls.swift; sourceTree = "<group>"; };
+		2FB404822C15BDD90091507F /* CitiesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesPage.swift; sourceTree = "<group>"; };
+		2FB404BD2C18BE840091507F /* CarsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsPage.swift; sourceTree = "<group>"; };
+		2FB404BF2C18C5FD0091507F /* NaturePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturePage.swift; sourceTree = "<group>"; };
+		2FB404C12C18C72C0091507F /* SpacePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FB404372C151B300091507F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB404BC2C1734720091507F /* URLImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB404472C151B320091507F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB404512C151B320091507F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FB404312C151B300091507F = {
+			isa = PBXGroup;
+			children = (
+				2FB4043C2C151B300091507F /* Wallpaper */,
+				2FB4044D2C151B320091507F /* WallpaperTests */,
+				2FB404572C151B320091507F /* WallpaperUITests */,
+				2FB4043B2C151B300091507F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FB4043B2C151B300091507F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FB4043A2C151B300091507F /* Wallpaper.app */,
+				2FB4044A2C151B320091507F /* WallpaperTests.xctest */,
+				2FB404542C151B320091507F /* WallpaperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FB4043C2C151B300091507F /* Wallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				2FB404692C151B940091507F /* Modules */,
+				2FB404672C151B6F0091507F /* App */,
+				2FB404732C151F170091507F /* Extensions */,
+				2FB404682C151B790091507F /* Resources */,
+				2FB404432C151B320091507F /* Preview Content */,
+			);
+			path = Wallpaper;
+			sourceTree = "<group>";
+		};
+		2FB404432C151B320091507F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2FB404442C151B320091507F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FB4044D2C151B320091507F /* WallpaperTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FB4044E2C151B320091507F /* WallpaperTests.swift */,
+			);
+			path = WallpaperTests;
+			sourceTree = "<group>";
+		};
+		2FB404572C151B320091507F /* WallpaperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FB404582C151B320091507F /* WallpaperUITests.swift */,
+				2FB4045A2C151B320091507F /* WallpaperUITestsLaunchTests.swift */,
+			);
+			path = WallpaperUITests;
+			sourceTree = "<group>";
+		};
+		2FB404672C151B6F0091507F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2FB4043D2C151B300091507F /* WallpaperApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2FB404682C151B790091507F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2FB4047E2C15204E0091507F /* MockImageUrls.swift */,
+				2FB404412C151B320091507F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2FB404692C151B940091507F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2FB4046D2C151C3D0091507F /* Main Page */,
+				2FB4046A2C151B9A0091507F /* TabBar */,
+				2FB404762C151F800091507F /* AnimalsPage.swift */,
+				2FB404822C15BDD90091507F /* CitiesPage.swift */,
+				2FB404BD2C18BE840091507F /* CarsPage.swift */,
+				2FB404BF2C18C5FD0091507F /* NaturePage.swift */,
+				2FB404C12C18C72C0091507F /* SpacePage.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2FB4046A2C151B9A0091507F /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2FB4046B2C151BA60091507F /* CoreTabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		2FB4046D2C151C3D0091507F /* Main Page */ = {
+			isa = PBXGroup;
+			children = (
+				2FB4046F2C151C4E0091507F /* MainPageView.swift */,
+			);
+			path = "Main Page";
+			sourceTree = "<group>";
+		};
+		2FB404732C151F170091507F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2FB404742C151F260091507F /* Color+Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FB404392C151B300091507F /* Wallpaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB4045E2C151B320091507F /* Build configuration list for PBXNativeTarget "Wallpaper" */;
+			buildPhases = (
+				2FB404362C151B300091507F /* Sources */,
+				2FB404372C151B300091507F /* Frameworks */,
+				2FB404382C151B300091507F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wallpaper;
+			packageProductDependencies = (
+				2FB404BB2C1734720091507F /* URLImage */,
+			);
+			productName = Wallpaper;
+			productReference = 2FB4043A2C151B300091507F /* Wallpaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FB404492C151B320091507F /* WallpaperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB404612C151B320091507F /* Build configuration list for PBXNativeTarget "WallpaperTests" */;
+			buildPhases = (
+				2FB404462C151B320091507F /* Sources */,
+				2FB404472C151B320091507F /* Frameworks */,
+				2FB404482C151B320091507F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FB4044C2C151B320091507F /* PBXTargetDependency */,
+			);
+			name = WallpaperTests;
+			productName = WallpaperTests;
+			productReference = 2FB4044A2C151B320091507F /* WallpaperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FB404532C151B320091507F /* WallpaperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB404642C151B320091507F /* Build configuration list for PBXNativeTarget "WallpaperUITests" */;
+			buildPhases = (
+				2FB404502C151B320091507F /* Sources */,
+				2FB404512C151B320091507F /* Frameworks */,
+				2FB404522C151B320091507F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FB404562C151B320091507F /* PBXTargetDependency */,
+			);
+			name = WallpaperUITests;
+			productName = WallpaperUITests;
+			productReference = 2FB404542C151B320091507F /* WallpaperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FB404322C151B300091507F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2FB404392C151B300091507F = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					2FB404492C151B320091507F = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 2FB404392C151B300091507F;
+					};
+					2FB404532C151B320091507F = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 2FB404392C151B300091507F;
+					};
+				};
+			};
+			buildConfigurationList = 2FB404352C151B300091507F /* Build configuration list for PBXProject "Wallpaper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FB404312C151B300091507F;
+			packageReferences = (
+				2FB404BA2C1734720091507F /* XCRemoteSwiftPackageReference "URLImage" */,
+			);
+			productRefGroup = 2FB4043B2C151B300091507F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FB404392C151B300091507F /* Wallpaper */,
+				2FB404492C151B320091507F /* WallpaperTests */,
+				2FB404532C151B320091507F /* WallpaperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FB404382C151B300091507F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB404452C151B320091507F /* Preview Assets.xcassets in Resources */,
+				2FB404422C151B320091507F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB404482C151B320091507F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB404522C151B320091507F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FB404362C151B300091507F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB404752C151F260091507F /* Color+Additions.swift in Sources */,
+				2FB404832C15BDD90091507F /* CitiesPage.swift in Sources */,
+				2FB404C22C18C72C0091507F /* SpacePage.swift in Sources */,
+				2FB4046C2C151BA60091507F /* CoreTabBar.swift in Sources */,
+				2FB4047F2C15204E0091507F /* MockImageUrls.swift in Sources */,
+				2FB4043E2C151B300091507F /* WallpaperApp.swift in Sources */,
+				2FB404772C151F800091507F /* AnimalsPage.swift in Sources */,
+				2FB404C02C18C5FD0091507F /* NaturePage.swift in Sources */,
+				2FB404702C151C4E0091507F /* MainPageView.swift in Sources */,
+				2FB404BE2C18BE840091507F /* CarsPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB404462C151B320091507F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB4044F2C151B320091507F /* WallpaperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB404502C151B320091507F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB404592C151B320091507F /* WallpaperUITests.swift in Sources */,
+				2FB4045B2C151B320091507F /* WallpaperUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FB4044C2C151B320091507F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FB404392C151B300091507F /* Wallpaper */;
+			targetProxy = 2FB4044B2C151B320091507F /* PBXContainerItemProxy */;
+		};
+		2FB404562C151B320091507F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FB404392C151B300091507F /* Wallpaper */;
+			targetProxy = 2FB404552C151B320091507F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FB4045C2C151B320091507F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FB4045D2C151B320091507F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FB4045F2C151B320091507F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wallpaper/Preview Content\"";
+				DEVELOPMENT_TEAM = W87DVUQX95;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.sultan.irkaliyev.Wallpaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FB404602C151B320091507F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wallpaper/Preview Content\"";
+				DEVELOPMENT_TEAM = W87DVUQX95;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.sultan.irkaliyev.Wallpaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FB404622C151B320091507F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W87DVUQX95;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.sultan.irkaliyev.WallpaperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wallpaper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wallpaper";
+			};
+			name = Debug;
+		};
+		2FB404632C151B320091507F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W87DVUQX95;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.sultan.irkaliyev.WallpaperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wallpaper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wallpaper";
+			};
+			name = Release;
+		};
+		2FB404652C151B320091507F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W87DVUQX95;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.sultan.irkaliyev.WallpaperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wallpaper;
+			};
+			name = Debug;
+		};
+		2FB404662C151B320091507F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W87DVUQX95;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.sultan.irkaliyev.WallpaperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wallpaper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FB404352C151B300091507F /* Build configuration list for PBXProject "Wallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB4045C2C151B320091507F /* Debug */,
+				2FB4045D2C151B320091507F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FB4045E2C151B320091507F /* Build configuration list for PBXNativeTarget "Wallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB4045F2C151B320091507F /* Debug */,
+				2FB404602C151B320091507F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FB404612C151B320091507F /* Build configuration list for PBXNativeTarget "WallpaperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB404622C151B320091507F /* Debug */,
+				2FB404632C151B320091507F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FB404642C151B320091507F /* Build configuration list for PBXNativeTarget "WallpaperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB404652C151B320091507F /* Debug */,
+				2FB404662C151B320091507F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2FB404BA2C1734720091507F /* XCRemoteSwiftPackageReference "URLImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sultanirkaliyev/URLImage";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2FB404BB2C1734720091507F /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2FB404BA2C1734720091507F /* XCRemoteSwiftPackageReference "URLImage" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2FB404322C151B300091507F /* Project object */;
+}
